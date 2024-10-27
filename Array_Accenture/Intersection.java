@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Intersection {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -25,7 +24,9 @@ public class Intersection {
                 }
             }
         }
-        for(int i=0; i<n1; i++){
+        System.out.println("Element which are present in both arrays are:");
+        for(int i=0; i<intersection.length; i++){
+            
             System.out.println(intersection[i]);
         }
 
