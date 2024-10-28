@@ -17,6 +17,7 @@ public class Anagram_Accenture {
 
     }
     public static void main(String args[]){
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the 1st string");
         String str1 = sc.next();
