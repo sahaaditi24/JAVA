@@ -1,5 +1,3 @@
-
-
 public class Matrix {
    public static void matrix(int A[][], int B[][]){
         
