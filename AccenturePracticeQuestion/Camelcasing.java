@@ -22,3 +22,14 @@ public class Camelcasing {
 
 }
     
+
+// StringBuilder result = new StringBuilder();
+// for(int i=0; i<n; i++){
+//     char ch = str.charAt(i);
+//     if(Character.isUpperCase(ch)){
+//         result.append(Character.toLowerCase(ch));
+//     }
+//     else{
+//         result.append(Character.toUpperCase(ch));
+//     }
+// }

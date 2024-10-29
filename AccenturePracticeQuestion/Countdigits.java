@@ -9,3 +9,6 @@ public class Countdigits {
         System.out.println(count);
     }
 }
+
+
+// int count = (int)(Math.log10(n)+ 1);
