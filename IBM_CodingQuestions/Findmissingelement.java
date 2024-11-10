@@ -19,12 +19,15 @@ public class Findmissingelement {
         }
         int temp = 0;
         for(int i=0; i<l-1; i++){
-            if(arr[i]> arr[i+1]){
-                temp = arr[i];
-                arr[i] = arr[i+1];
-                arr[i+1] = temp;
+            for(int j=0; j<l-i-1; j++){
+                if(arr[j]> arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
             }
         }
+        
         int output = 0;
         for(int i=0;i<max; i++){
             if(arr[i]!= i+1){
