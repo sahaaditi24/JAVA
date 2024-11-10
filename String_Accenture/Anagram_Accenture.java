@@ -12,7 +12,7 @@ public class Anagram_Accenture {
             System.out.println("Yes it's an anagram");
         }
         else{
-            System.out.println("No, it's not");
+            System.out.println("No, it not");
         }
 
     }
