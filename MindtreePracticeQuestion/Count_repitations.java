@@ -6,9 +6,7 @@ public class Count_repitations {
         for(int i=0; i<array.length; i++){
             if(array[i]== t){
                 count = count + 1;
-
             }
-
         }
         System.out.println(count);
 
