@@ -6,10 +6,11 @@ public class compriseletters {
         System.out.println("Enter the string");
         String str = sc.next();
         StringBuilder newstr = new StringBuilder();
-        int count =0;
+        int count =1;
+        int l = str.length();
 
-        for(int i=0; i<str.length(); i++){
-           if(str.charAt(i) == str.charAt(i+1)){
+        for(int i=0; i<l; i++){
+           if(i<l-1 && str.charAt(i) == str.charAt(i+1)){
                 count ++;
            }
            else{
@@ -17,7 +18,9 @@ public class compriseletters {
                 if(count> 1){
                     newstr.append(count);
                 }
+                count =1;
            } 
         }
+        System.out.println(newstr);
     }
 }
