@@ -9,7 +9,7 @@ public class vuat {
         int a = sc.nextInt();
         System.out.println("Enter the value of t");
         int t = sc.nextInt();
-        int u = v - a* t;
+        int u = v + a* t;
         System.out.println("The output is:" + u);
 
     }
