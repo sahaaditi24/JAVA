@@ -10,7 +10,7 @@ public class vuat {
         System.out.println("Enter the value of t");
         int t = sc.nextInt();
         int u = v + a* t;
-        System.out.println("The output is:" + u);
+        System.out.println("The output of the given inputs using the formula is :" + u);
 
     }
 }
