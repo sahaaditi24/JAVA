@@ -17,10 +17,10 @@ public class Palindrome {
         }
         System.out.println(sb);
         if(sb.compareTo(s)== 0){
-            System.out.println("It's a palindrome");
+            System.out.println("It's a palindrome string");
         }
         else{
-            System.out.println("It's not a palindrome");
+            System.out.println("It's not a palindrome string");
         }
     }
     
