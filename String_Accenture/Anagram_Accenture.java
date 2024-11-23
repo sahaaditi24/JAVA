@@ -9,10 +9,10 @@ public class Anagram_Accenture {
         Arrays.sort(arr2);
 
         if(Arrays.equals(arr1, arr2)){
-            System.out.println("Yes it's an anagram");
+            System.out.println("Yes it's an anagram string");
         }
         else{
-            System.out.println("No, it's not");
+            System.out.println("No, it's not an anagram string");
         }
 
     }
