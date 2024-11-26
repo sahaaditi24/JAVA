@@ -32,4 +32,6 @@ public class Camelcasing {
 //     else{
 //         result.append(Character.toUpperCase(ch));
 //     }
+// Character.isUpperCase(ch)
+// Character.isLowerCase(ch)
 // }

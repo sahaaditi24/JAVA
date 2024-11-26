@@ -20,3 +20,6 @@ public class reversestring {
     }
     
 }
+
+// sb.setcharAt(front, backChar);
+// sb.setcharAt(back, frontChar);
