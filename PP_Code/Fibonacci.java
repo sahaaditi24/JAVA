@@ -9,10 +9,10 @@ public class Fibonacci {
         int b =1;
         System.out.println("Fibonacci Series:");
         for(int i=0; i<n; i++){
-            System.out.print(a + " "); 
+            System.out.print(a); 
             int num3 = a + b;
             a =b;
-            b = num3;
+            b =num3;
            
         }
         
